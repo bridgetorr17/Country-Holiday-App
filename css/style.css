@@ -1,0 +1,44 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+#content{
+  display: flex;
+  justify-content: space-between;
+}
+
+#map{
+  flex-basis: 100%;
+}
+
+svg {
+  width: 1009.6727px;
+  height: 665.96301px;
+}
+
+#holidayInfo{
+  width: 30%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
